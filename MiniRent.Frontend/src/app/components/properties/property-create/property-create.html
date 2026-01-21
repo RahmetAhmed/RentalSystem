@@ -1,0 +1,116 @@
+<div class="property-create-container">
+  <mat-card class="create-card">
+    <mat-card-header>
+      <mat-card-title>Create New Property</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <form [formGroup]="propertyForm" (ngSubmit)="onSubmit()">
+        <div class="form-row">
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Title</mat-label>
+            <input matInput formControlName="title" required>
+            <mat-error *ngIf="propertyForm.get('title')?.hasError('required')">
+              Title is required
+            </mat-error>
+            <mat-error *ngIf="propertyForm.get('title')?.hasError('minlength')">
+              Title must be at least 3 characters
+            </mat-error>
+          </mat-form-field>
+        </div>
+
+        <div class="form-row">
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Location</mat-label>
+            <input matInput formControlName="location" required>
+            <mat-error *ngIf="propertyForm.get('location')?.hasError('required')">
+              Location is required
+            </mat-error>
+          </mat-form-field>
+        </div>
+
+        <div class="form-row">
+          <mat-form-field appearance="outline" class="form-field-half">
+            <mat-label>Bedrooms</mat-label>
+            <input matInput type="number" formControlName="bedrooms" required>
+            <mat-error *ngIf="propertyForm.get('bedrooms')?.hasError('required')">
+              Bedrooms is required
+            </mat-error>
+            <mat-error *ngIf="propertyForm.get('bedrooms')?.hasError('min')">
+              Must be at least 1
+            </mat-error>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" class="form-field-half">
+            <mat-label>Area (m²)</mat-label>
+            <input matInput type="number" formControlName="areaSqm" required>
+            <mat-error *ngIf="propertyForm.get('areaSqm')?.hasError('required')">
+              Area is required
+            </mat-error>
+            <mat-error *ngIf="propertyForm.get('areaSqm')?.hasError('min')">
+              Must be at least 1
+            </mat-error>
+          </mat-form-field>
+        </div>
+
+        <div class="form-row">
+          <mat-form-field appearance="outline" class="form-field-half">
+            <mat-label>Floor</mat-label>
+            <input matInput type="number" formControlName="floor" required>
+            <mat-error *ngIf="propertyForm.get('floor')?.hasError('required')">
+              Floor is required
+            </mat-error>
+            <mat-error *ngIf="propertyForm.get('floor')?.hasError('min')">
+              Must be 0 or greater
+            </mat-error>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" class="form-field-half">
+            <mat-label>Price ($)</mat-label>
+            <input matInput type="number" formControlName="price" required>
+            <mat-error *ngIf="propertyForm.get('price')?.hasError('required')">
+              Price is required
+            </mat-error>
+            <mat-error *ngIf="propertyForm.get('price')?.hasError('min')">
+              Must be greater than 0
+            </mat-error>
+          </mat-form-field>
+        </div>
+
+        <div class="image-upload-section">
+          <label class="upload-label">Property Image (Optional)</label>
+          <div class="image-upload-container">
+            <input 
+              type="file" 
+              #fileInput 
+              (change)="onFileSelected($event)"
+              accept="image/*"
+              style="display: none"
+              id="image-upload">
+            <label for="image-upload" class="upload-button">
+              <mat-icon>cloud_upload</mat-icon>
+              <span>Choose Image</span>
+            </label>
+            <div *ngIf="uploadingImage" class="upload-status">
+              <mat-spinner diameter="20"></mat-spinner>
+              <span>Uploading...</span>
+            </div>
+            <div *ngIf="imagePreview && !uploadingImage" class="image-preview">
+              <img [src]="imagePreview" alt="Preview">
+              <button mat-icon-button (click)="removeImage()" class="remove-image-btn">
+                <mat-icon>close</mat-icon>
+              </button>
+            </div>
+          </div>
+          <p class="upload-hint">Supported formats: JPEG, PNG, GIF, WebP (Max 10MB)</p>
+        </div>
+
+        <div class="form-actions">
+          <button mat-button type="button" (click)="cancel()">Cancel</button>
+          <button mat-raised-button color="primary" type="submit" [disabled]="propertyForm.invalid">
+            Create Property
+          </button>
+        </div>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>

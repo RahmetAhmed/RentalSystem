@@ -1,0 +1,6 @@
+@MiniRent.Backend_HostAddress = http://localhost:5083
+
+GET {{MiniRent.Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,94 @@
+<div class="property-details-container">
+  <div *ngIf="loading" class="loading-spinner">
+    <mat-spinner></mat-spinner>
+  </div>
+
+  <div *ngIf="!loading && property" class="details-content">
+    <div class="header-actions">
+      <button mat-button routerLink="/properties">
+        <mat-icon>arrow_back</mat-icon>
+        Back to Properties
+      </button>
+      <div class="action-buttons">
+        <button mat-raised-button color="primary" routerLink="/inquiries/create" [queryParams]="{propertyId: property?.id}">
+          <mat-icon>mail</mat-icon>
+          Create Inquiry
+        </button>
+        <button *ngIf="authService.isAdmin()" mat-raised-button color="warn" (click)="deleteProperty()">
+          <mat-icon>delete</mat-icon>
+          Delete
+        </button>
+      </div>
+    </div>
+
+    <mat-card class="property-detail-card">
+      <div class="property-image-container-large" *ngIf="property.imageId">
+        <img [src]="getImageUrl(property.imageUrl)" [alt]="property.title" class="property-image-large" (error)="$event.target.src='https://via.placeholder.com/800x600?text=No+Image'">
+      </div>
+      <div class="property-image-placeholder-large" *ngIf="!property.imageId">
+        <mat-icon>home</mat-icon>
+      </div>
+      <mat-card-header>
+        <mat-card-title>{{ property.title }}</mat-card-title>
+        <mat-card-subtitle>{{ property.location }}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="property-info">
+          <div class="info-section">
+            <h3>Property Details</h3>
+            <div class="detail-grid">
+              <div class="detail-item">
+                <mat-icon>bed</mat-icon>
+                <div>
+                  <span class="label">Bedrooms</span>
+                  <span class="value">{{ property.bedrooms }}</span>
+                </div>
+              </div>
+              <div class="detail-item">
+                <mat-icon>square_foot</mat-icon>
+                <div>
+                  <span class="label">Area</span>
+                  <span class="value">{{ property.areaSqm }} m²</span>
+                </div>
+              </div>
+              <div class="detail-item">
+                <mat-icon>layers</mat-icon>
+                <div>
+                  <span class="label">Floor</span>
+                  <span class="value">{{ property.floor }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="price-section">
+            <h3>Price</h3>
+            <div class="price">{{ formatPrice(property.price) }}</div>
+          </div>
+
+          <div class="status-section" *ngIf="authService.isAdmin()">
+            <h3>Status</h3>
+            <div class="status-controls">
+              <mat-chip [color]="getStatusColor(property.status)">{{ property.status }}</mat-chip>
+              <mat-form-field appearance="outline">
+                <mat-label>Change Status</mat-label>
+                <mat-select [(ngModel)]="selectedStatus">
+                  <mat-option *ngFor="let option of statusOptions" [value]="option.value">
+                    {{ option.label }}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+              <button mat-raised-button color="primary" (click)="updateStatus()" [disabled]="selectedStatus === getStatusEnum(property.status)">
+                Update Status
+              </button>
+            </div>
+          </div>
+          <div class="status-section" *ngIf="!authService.isAdmin()">
+            <h3>Status</h3>
+            <mat-chip [color]="getStatusColor(property.status)">{{ property.status }}</mat-chip>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

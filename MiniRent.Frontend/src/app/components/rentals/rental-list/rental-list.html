@@ -1,0 +1,73 @@
+<div class="rental-list-container">
+  <div class="header">
+    <h1>Rentals</h1>
+    <button mat-raised-button color="primary" routerLink="/rentals/create" *ngIf="authService.isAdmin()">
+      <mat-icon>add</mat-icon>
+      New Rental
+    </button>
+  </div>
+
+  <div class="filters">
+    <mat-form-field appearance="outline">
+      <mat-label>Filter</mat-label>
+      <mat-select [(ngModel)]="showActiveOnly" (selectionChange)="onFilterChange()">
+        <mat-option [value]="true">Active Rentals</mat-option>
+        <mat-option [value]="false">All Rentals</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Property</mat-label>
+      <mat-select [(ngModel)]="filters.propertyId" (selectionChange)="onFilterChange()">
+        <mat-option [value]="undefined">All Properties</mat-option>
+        <mat-option *ngFor="let prop of properties" [value]="prop.id">
+          {{ prop.title }} - {{ prop.location }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div *ngIf="loading" class="loading-spinner">
+    <mat-spinner></mat-spinner>
+  </div>
+
+  <div *ngIf="!loading && rentals.length === 0" class="empty-state">
+    <mat-icon>receipt_long</mat-icon>
+    <p>No rentals found</p>
+  </div>
+
+  <div class="rentals-grid" *ngIf="!loading && rentals.length > 0">
+    <mat-card class="rental-card" *ngFor="let rental of rentals" (click)="router.navigate(['/rentals', rental.id])">
+      <mat-card-header>
+        <mat-card-title>{{ rental.propertyTitle }}</mat-card-title>
+        <mat-card-subtitle>{{ rental.propertyLocation }}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="rental-details">
+          <div class="detail-item">
+            <mat-icon>person</mat-icon>
+            <span>{{ rental.tenantName }}</span>
+          </div>
+          <div class="detail-item">
+            <mat-icon>phone</mat-icon>
+            <span>{{ rental.tenantPhone }}</span>
+          </div>
+          <div class="detail-item">
+            <mat-icon>calendar_today</mat-icon>
+            <span>Start: {{ formatDate(rental.startDate) }}</span>
+          </div>
+          <div class="detail-item" *ngIf="rental.endDate">
+            <mat-icon>event_busy</mat-icon>
+            <span>End: {{ formatDate(rental.endDate) }}</span>
+          </div>
+        </div>
+        <div class="price-section">
+          <span class="monthly-rent">{{ formatPrice(rental.monthlyRent) }}/month</span>
+          <mat-chip [color]="rental.isActive ? 'primary' : 'warn'">
+            {{ rental.isActive ? 'Active' : 'Ended' }}
+          </mat-chip>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

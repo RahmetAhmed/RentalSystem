@@ -1,0 +1,53 @@
+<div class="property-list-container">
+  <div class="header">
+    <h1>Properties</h1>
+    <button *ngIf="authService.isAdmin()" mat-raised-button color="primary" routerLink="/properties/create">
+      <mat-icon>add</mat-icon>
+      Add Property
+    </button>
+  </div>
+
+  <div *ngIf="loading" class="loading-spinner">
+    <mat-spinner></mat-spinner>
+  </div>
+
+  <div *ngIf="!loading && properties.length === 0" class="empty-state">
+    <mat-icon>home</mat-icon>
+    <p>No properties available</p>
+  </div>
+
+  <div class="properties-grid" *ngIf="!loading && properties.length > 0">
+    <mat-card class="property-card" *ngFor="let property of properties" (click)="router.navigate(['/properties', property.id])">
+      <div class="property-image-container" *ngIf="property.imageId">
+        <img [src]="getImageUrl(property.imageUrl)" [alt]="property.title" class="property-image" (error)="$event.target.src='https://via.placeholder.com/400x300?text=No+Image'">
+      </div>
+      <div class="property-image-placeholder" *ngIf="!property.imageId">
+        <mat-icon>home</mat-icon>
+      </div>
+      <mat-card-header>
+        <mat-card-title>{{ property.title }}</mat-card-title>
+        <mat-card-subtitle>{{ property.location }}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="property-details">
+          <div class="detail-item">
+            <mat-icon>bed</mat-icon>
+            <span>{{ property.bedrooms }} Bedrooms</span>
+          </div>
+          <div class="detail-item">
+            <mat-icon>square_foot</mat-icon>
+            <span>{{ property.areaSqm }} m²</span>
+          </div>
+          <div class="detail-item">
+            <mat-icon>layers</mat-icon>
+            <span>Floor {{ property.floor }}</span>
+          </div>
+        </div>
+        <div class="price-status">
+          <span class="price">{{ formatPrice(property.price) }}</span>
+          <mat-chip [color]="getStatusColor(property.status)">{{ property.status }}</mat-chip>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

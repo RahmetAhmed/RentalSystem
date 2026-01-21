@@ -1,0 +1,25 @@
+/* Angular Material Theme */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* Custom Material theme overrides */
+.mat-mdc-raised-button.mat-primary {
+  background-color: #667eea;
+}
+
+.mat-mdc-raised-button.mat-primary:hover {
+  background-color: #5568d3;
+}
+
+.mat-toolbar.mat-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}

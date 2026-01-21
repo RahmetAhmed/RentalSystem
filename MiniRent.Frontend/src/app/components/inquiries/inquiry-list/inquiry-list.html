@@ -1,0 +1,78 @@
+<div class="inquiry-list-container">
+  <div class="header">
+    <h1>Inquiries</h1>
+    <button mat-raised-button color="primary" routerLink="/inquiries/create">
+      <mat-icon>add</mat-icon>
+      New Inquiry
+    </button>
+  </div>
+
+  <div class="filters">
+    <mat-form-field appearance="outline">
+      <mat-label>Status</mat-label>
+      <mat-select [(ngModel)]="filters.status" (selectionChange)="onFilterChange()">
+        <mat-option *ngFor="let option of statusOptions" [value]="option.value">
+          {{ option.label }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Property</mat-label>
+      <mat-select [(ngModel)]="filters.propertyId" (selectionChange)="onFilterChange()">
+        <mat-option [value]="undefined">All Properties</mat-option>
+        <mat-option *ngFor="let prop of properties" [value]="prop.id">
+          {{ prop.title }} - {{ prop.location }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div *ngIf="loading" class="loading-spinner">
+    <mat-spinner></mat-spinner>
+  </div>
+
+  <div *ngIf="!loading && inquiries.length === 0" class="empty-state">
+    <mat-icon>mail</mat-icon>
+    <p>No inquiries found</p>
+  </div>
+
+  <div class="inquiries-list" *ngIf="!loading && inquiries.length > 0">
+    <mat-card class="inquiry-card" *ngFor="let inquiry of inquiries" (click)="router.navigate(['/inquiries', inquiry.id])">
+      <mat-card-header>
+        <mat-card-title>{{ inquiry.name }}</mat-card-title>
+        <mat-card-subtitle>{{ inquiry.email }}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="inquiry-details">
+          <div class="detail-item">
+            <mat-icon>phone</mat-icon>
+            <span>{{ inquiry.phone }}</span>
+          </div>
+          <div class="detail-item" *ngIf="inquiry.propertyTitle">
+            <mat-icon>home</mat-icon>
+            <span>{{ inquiry.propertyTitle }}</span>
+          </div>
+          <div class="detail-item">
+            <mat-icon>calendar_today</mat-icon>
+            <span>{{ formatDate(inquiry.createdAt) }}</span>
+          </div>
+        </div>
+        <div class="message-preview">
+          <p>{{ inquiry.message.substring(0, 100) }}{{ inquiry.message.length > 100 ? '...' : '' }}</p>
+        </div>
+        <div class="status-section">
+          <mat-chip [color]="getStatusColor(inquiry.status)">{{ inquiry.status }}</mat-chip>
+        </div>
+      </mat-card-content>
+    </mat-card>
+
+    <mat-paginator
+      [length]="totalCount"
+      [pageSize]="filters.pageSize || 10"
+      [pageSizeOptions]="pageSizeOptions"
+      [pageIndex]="(filters.page || 1) - 1"
+      (page)="onPageChange($event)">
+    </mat-paginator>
+  </div>
+</div>

@@ -1,0 +1,56 @@
+<mat-toolbar color="primary" class="navbar">
+  <a routerLink="/properties" class="logo">
+    <mat-icon>home</mat-icon>
+    <span>MiniRent</span>
+  </a>
+
+  <span class="spacer"></span>
+
+  <div class="nav-links" *ngIf="authService.isAuthenticated()">
+    <a mat-button routerLink="/properties" routerLinkActive="active">
+      <mat-icon>list</mat-icon>
+      Properties
+    </a>
+    <a mat-button routerLink="/properties/create" routerLinkActive="active" *ngIf="authService.isAdmin()">
+      <mat-icon>add</mat-icon>
+      Add Property
+    </a>
+    <a mat-button routerLink="/rentals" routerLinkActive="active" *ngIf="authService.isAuthenticated()">
+      <mat-icon>receipt_long</mat-icon>
+      Rentals
+    </a>
+    <a mat-button routerLink="/inquiries" routerLinkActive="active" *ngIf="authService.isAuthenticated()">
+      <mat-icon>mail</mat-icon>
+      Inquiries
+    </a>
+    <a mat-button routerLink="/profile" routerLinkActive="active" *ngIf="authService.isAuthenticated()">
+      <mat-icon>person</mat-icon>
+      Dashboard
+    </a>
+ 
+
+    <a mat-button routerLink="/admin" routerLinkActive="active" *ngIf="authService.isAdmin()">
+      <mat-icon>admin_panel_settings</mat-icon>
+      User Management
+    </a>
+    
+    <button mat-icon-button [matMenuTriggerFor]="userMenu">
+      <mat-icon>account_circle</mat-icon>
+    </button>
+    <mat-menu #userMenu="matMenu">
+      <div class="user-info" *ngIf="currentUser">
+        <p class="user-name">{{ currentUser.fullName }}</p>
+        <p class="user-role">{{ currentUser.role }}</p>
+      </div>
+      <button mat-menu-item (click)="logout()">
+        <mat-icon>logout</mat-icon>
+        <span>Logout</span>
+      </button>
+    </mat-menu>
+  </div>
+
+  <div class="nav-links" *ngIf="!authService.isAuthenticated()">
+    <a mat-button routerLink="/login" routerLinkActive="active">Login</a>
+    <a mat-button routerLink="/register" routerLinkActive="active">Register</a>
+  </div>
+</mat-toolbar>

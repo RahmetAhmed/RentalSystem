@@ -1,0 +1,32 @@
+.rental-create-container {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.create-card {
+  width: 100%;
+  max-width: 600px;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.form-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.form-field-half {
+  flex: 1;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 24px;
+}

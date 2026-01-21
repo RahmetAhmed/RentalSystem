@@ -1,0 +1,11 @@
+export interface User {
+  id: number;
+  fullName: string;
+  email: string;
+  roles: string[];
+}
+
+export interface Role {
+  id: number;
+  name: string;
+}

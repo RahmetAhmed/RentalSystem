@@ -1,0 +1,15 @@
+# Backend
+bin/
+obj/
+appsettings.Development.json
+
+# Frontend
+node_modules/
+dist/
+
+# Tools
+.vs/
+.vscode/
+
+# Logs
+*.log

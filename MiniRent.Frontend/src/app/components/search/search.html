@@ -1,0 +1,63 @@
+<div class="search-container">
+  <h1>Search</h1>
+
+  <mat-card class="search-card">
+    <mat-card-content>
+      <form [formGroup]="searchForm" (ngSubmit)="onSearch()">
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Search</mat-label>
+          <input matInput formControlName="query" placeholder="Search properties, inquiries, tenants...">
+          <mat-icon matSuffix>search</mat-icon>
+        </mat-form-field>
+        <button mat-raised-button color="primary" type="submit" [disabled]="!searchForm.get('query')?.value">
+          Search
+        </button>
+      </form>
+    </mat-card-content>
+  </mat-card>
+
+  <div *ngIf="loading" class="loading-spinner">
+    <mat-spinner></mat-spinner>
+  </div>
+
+  <div *ngIf="!loading && searched && properties.length === 0 && inquiries.length === 0" class="no-results">
+    <mat-icon>search_off</mat-icon>
+    <p>No results found</p>
+  </div>
+
+  <div *ngIf="!loading && (properties.length > 0 || inquiries.length > 0)" class="results">
+    <div *ngIf="properties.length > 0" class="result-section">
+      <h2>Properties ({{ properties.length }})</h2>
+      <div class="results-list">
+        <mat-card class="result-card" *ngFor="let result of properties" (click)="navigateToResult(result)">
+          <mat-card-content>
+            <div class="result-item">
+              <mat-icon>{{ getTypeIcon(result.type) }}</mat-icon>
+              <div class="result-info">
+                <h3>{{ result.title }}</h3>
+                <p>{{ result.additionalInfo }}</p>
+              </div>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+
+    <div *ngIf="inquiries.length > 0" class="result-section">
+      <h2>Inquiries ({{ inquiries.length }})</h2>
+      <div class="results-list">
+        <mat-card class="result-card" *ngFor="let result of inquiries" (click)="navigateToResult(result)">
+          <mat-card-content>
+            <div class="result-item">
+              <mat-icon>{{ getTypeIcon(result.type) }}</mat-icon>
+              <div class="result-info">
+                <h3>{{ result.title }}</h3>
+                <p>{{ result.additionalInfo }}</p>
+              </div>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>
