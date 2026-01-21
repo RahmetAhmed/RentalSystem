@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\rahme\\Desktop\\minirent\\MiniRent.Backend\\wwwroot\\uploads\\images\\20bf2c7b-8cf9-4467-987b-3cb6815389bd.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\20bf2c7b-8cf9-4467-987b-3cb6815389bd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rahme\\Desktop\\minirent\\MiniRent.Backend\\wwwroot\\uploads\\images\\391a56b9-f510-4fcd-828c-21b03c9598f5.webp",
+      "PackagePath": "staticwebassets\\uploads\\images\\391a56b9-f510-4fcd-828c-21b03c9598f5.webp"
+    },
+    {
+      "Id": "C:\\Users\\rahme\\Desktop\\minirent\\MiniRent.Backend\\wwwroot\\uploads\\images\\3d2b8f9d-70f3-48a8-82ee-170265de622a.webp",
+      "PackagePath": "staticwebassets\\uploads\\images\\3d2b8f9d-70f3-48a8-82ee-170265de622a.webp"
+    },
+    {
+      "Id": "C:\\Users\\rahme\\Desktop\\minirent\\MiniRent.Backend\\wwwroot\\uploads\\images\\4873a36b-189f-4ec3-b32e-6b101ce7dcd2.png",
+      "PackagePath": "staticwebassets\\uploads\\images\\4873a36b-189f-4ec3-b32e-6b101ce7dcd2.png"
+    },
+    {
+      "Id": "C:\\Users\\rahme\\Desktop\\minirent\\MiniRent.Backend\\wwwroot\\uploads\\images\\5e8e0396-dfbd-4380-930d-f672ebe71cac.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\5e8e0396-dfbd-4380-930d-f672ebe71cac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rahme\\Desktop\\minirent\\MiniRent.Backend\\wwwroot\\uploads\\images\\98558a6f-a50a-46e2-8363-125e3e304916.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\98558a6f-a50a-46e2-8363-125e3e304916.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rahme\\Desktop\\minirent\\MiniRent.Backend\\wwwroot\\uploads\\images\\98a326a8-8e19-432a-a62b-4f21b6422a35.webp",
+      "PackagePath": "staticwebassets\\uploads\\images\\98a326a8-8e19-432a-a62b-4f21b6422a35.webp"
+    },
+    {
+      "Id": "C:\\Users\\rahme\\Desktop\\minirent\\MiniRent.Backend\\wwwroot\\uploads\\images\\a6367f43-e4a8-47b3-865c-f282bc290ed4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\a6367f43-e4a8-47b3-865c-f282bc290ed4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rahme\\Desktop\\minirent\\MiniRent.Backend\\wwwroot\\uploads\\images\\f0d03d0b-2c47-4a07-a008-962e48a8ea75.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\f0d03d0b-2c47-4a07-a008-962e48a8ea75.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rahme\\Desktop\\minirent\\MiniRent.Backend\\wwwroot\\uploads\\images\\f7156750-5bdb-479e-8aab-ee0187d84a15.webp",
+      "PackagePath": "staticwebassets\\uploads\\images\\f7156750-5bdb-479e-8aab-ee0187d84a15.webp"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MiniRent.Backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MiniRent.Backend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MiniRent.Backend.props",
+      "PackagePath": "build\\MiniRent.Backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MiniRent.Backend.props",
+      "PackagePath": "buildMultiTargeting\\MiniRent.Backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MiniRent.Backend.props",
+      "PackagePath": "buildTransitive\\MiniRent.Backend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

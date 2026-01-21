@@ -1,15 +1,15 @@
-# Backend
-bin/
-obj/
-appsettings.Development.json
+# Backend secrets / config
+appsettings.json
+appsettings.*.json
 
-# Frontend
-node_modules/
-dist/
+# User-specific / OS files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+Thumbs.db
+.DS_Store
 
-# Tools
-.vs/
-.vscode/
-
-# Logs
-*.log
+# Frontend build / cache
+.angular/
+coverage/
