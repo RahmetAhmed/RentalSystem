@@ -1,0 +1,457 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\migrations\\20260119073413_addpropertystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:migrations\\20260119073413_addpropertystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\services\\interfaces\\ipropertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:services\\interfaces\\ipropertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\models\\enums\\propertystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:models\\enums\\propertystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\dtos\\changepropertystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:dtos\\changepropertystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\dtos\\propertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:dtos\\propertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\dtos\\propertycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:dtos\\propertycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\dtos\\auth\\currentuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:dtos\\auth\\currentuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\controllers\\createroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:controllers\\createroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\dtos\\admin\\assignroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:dtos\\admin\\assignroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|c:\\users\\rahme\\desktop\\minirent.backend\\minirent.backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1D154F45-99EF-3E7D-DE35-AB0932B28425}|MiniRent.Backend.csproj|solutionrelative:minirent.backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T08:50:55.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PropertyService.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Services\\PropertyService.cs",
+              "RelativeDocumentMoniker": "Services\\PropertyService.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Services\\PropertyService.cs",
+              "RelativeToolTip": "Services\\PropertyService.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T08:41:44.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20260119073413_AddPropertyStatus.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Migrations\\20260119073413_AddPropertyStatus.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260119073413_AddPropertyStatus.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Migrations\\20260119073413_AddPropertyStatus.cs",
+              "RelativeToolTip": "Migrations\\20260119073413_AddPropertyStatus.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T07:40:56.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PropertiesController.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Controllers\\PropertiesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PropertiesController.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Controllers\\PropertiesController.cs",
+              "RelativeToolTip": "Controllers\\PropertiesController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAEkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T07:20:03.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAUwHwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T12:48:35.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Property.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Models\\Property.cs",
+              "RelativeDocumentMoniker": "Models\\Property.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Models\\Property.cs",
+              "RelativeToolTip": "Models\\Property.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA3wCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T07:23:34.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPropertyService.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Services\\Interfaces\\IPropertyService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IPropertyService.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Services\\Interfaces\\IPropertyService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IPropertyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T08:41:09.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PropertyStatus.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Models\\Enums\\PropertyStatus.cs",
+              "RelativeDocumentMoniker": "Models\\Enums\\PropertyStatus.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Models\\Enums\\PropertyStatus.cs",
+              "RelativeToolTip": "Models\\Enums\\PropertyStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T08:35:28.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChangePropertyStatusDto.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\DTOs\\ChangePropertyStatusDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ChangePropertyStatusDto.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\DTOs\\ChangePropertyStatusDto.cs",
+              "RelativeToolTip": "DTOs\\ChangePropertyStatusDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T07:31:12.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PropertyCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\DTOs\\PropertyCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\PropertyCreateDto.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\DTOs\\PropertyCreateDto.cs",
+              "RelativeToolTip": "DTOs\\PropertyCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T07:19:08.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PropertyDto.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\DTOs\\PropertyDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\PropertyDto.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\DTOs\\PropertyDto.cs",
+              "RelativeToolTip": "DTOs\\PropertyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T08:07:13.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T12:53:00.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T08:00:13.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T08:36:43.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Models\\Roles.cs",
+              "RelativeDocumentMoniker": "Models\\Roles.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Models\\Roles.cs",
+              "RelativeToolTip": "Models\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T07:40:17.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "Models\\UserRole.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Models\\UserRole.cs",
+              "RelativeToolTip": "Models\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T07:40:44.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Auth\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeToolTip": "DTOs\\Auth\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T08:38:58.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T09:08:43.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CurrentUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\DTOs\\Auth\\CurrentUserDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Auth\\CurrentUserDto.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\DTOs\\Auth\\CurrentUserDto.cs",
+              "RelativeToolTip": "DTOs\\Auth\\CurrentUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T12:43:10.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "createroles.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Controllers\\createroles.cs",
+              "RelativeDocumentMoniker": "Controllers\\createroles.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Controllers\\createroles.cs",
+              "RelativeToolTip": "Controllers\\createroles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T10:05:47.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AssignRoleDto.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\DTOs\\Admin\\AssignRoleDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Admin\\AssignRoleDto.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\DTOs\\Admin\\AssignRoleDto.cs",
+              "RelativeToolTip": "DTOs\\Admin\\AssignRoleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T07:50:00.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T08:50:19.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Auth\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeToolTip": "DTOs\\Auth\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T08:39:28.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\Controllers\\TestController.cs",
+              "RelativeToolTip": "Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T12:50:22.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-15T11:19:21.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MiniRent.Backend.csproj",
+              "DocumentMoniker": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\MiniRent.Backend.csproj",
+              "RelativeDocumentMoniker": "MiniRent.Backend.csproj",
+              "ToolTip": "C:\\Users\\rahme\\Desktop\\MiniRent.Backend\\MiniRent.Backend.csproj",
+              "RelativeToolTip": "MiniRent.Backend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-14T12:52:38.798Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
